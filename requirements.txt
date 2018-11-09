@@ -1,0 +1,6 @@
+nltk=3.2.5
+theano=1.0.1
+mkl-service=1.1.2
+tensorflow-gpu=1.4.1
+keras=2.1.5
+gensim=3.0.1
