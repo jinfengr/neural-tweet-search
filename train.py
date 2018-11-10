@@ -97,7 +97,7 @@ def get_default_args():
         "trainable": True, # whether to train the word embedding or not
         "nb_filters": 256, # number of filters in the CNN model
         "dropout": 0.1,
-        "batch_size": 128,
+        "batch_size": 64,
         "mode": 'deep_twitter',
         'weighting': 'query', # "query" or "doc":
         # "query" -> only weight query words and ngrams,

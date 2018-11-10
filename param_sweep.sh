@@ -5,6 +5,10 @@ else
     TEST=$1
 fi
 
+if [ ! -d "tune-logs" ]; then
+  mkdir tune-logs
+fi
+
 
 for batch_size in 256 128 64
 do
