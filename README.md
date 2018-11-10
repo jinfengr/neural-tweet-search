@@ -19,6 +19,7 @@ cd neural-tweet-search
 - Download required data and word2vec:
 ```
 $ chmod +x download.sh; ./download.sh
+$ chmod +x run_eval.sh
 ```
 - Install Tensorflow and Keras dependency:
 ```
