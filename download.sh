@@ -32,4 +32,6 @@ cd trec_eval.8.1
 make --ignore-errors 2> make.log
 rm make.log
 
+chmod +x run_eval.sh
+
 echo "Done."
