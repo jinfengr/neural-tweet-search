@@ -13,11 +13,13 @@ In social media search, the scenario is different as standard ad-hoc retrieval: 
 - Download our repo:
 ```
 git clone https://github.com/Jeffyrao/neural-tweet-search.git
+cd neural-tweet-search
 ```
 - Install [gdrive](https://github.com/prasmussen/gdrive)
 - Download required data and word2vec:
 ```
 $ chmod +x download.sh; ./download.sh
+$ chmod +x run_eval.sh
 ```
 - Install Tensorflow and Keras dependency:
 ```
