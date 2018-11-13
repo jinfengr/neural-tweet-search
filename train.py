@@ -202,7 +202,7 @@ def main(options):
         train_dataset = gen_data(args["raw_data"], train_set, vocab, test_vocab, True, max_query_len, max_doc_len,
                                  max_url_len, args)
         print("create training set successfully...")
-        test_dataset = gen_data(args["raw_data"], test_set, vocab, test_vocab, False, max_query_len, max_doc_len,
+        test_dataset = gen_data(args["raw_data"], [test_set], vocab, test_vocab, False, max_query_len, max_doc_len,
                                 max_url_len, args)
         train_vocab_emb, test_vocab_emb = construct_vocab_emb(
             "%s/%s" % (args["experimental_data"], data_name), vocab['word'], test_vocab['word'], 300, "word",

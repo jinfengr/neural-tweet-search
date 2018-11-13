@@ -1,5 +1,12 @@
 #!/bin/bash
 
+# Install gdrive if you are on Linux
+export PATH="$(pwd)":$PATH
+if [ ! -f "gdrive-*" ]; then
+  mv gdrive-* gdrive
+  echo "Install gdrive done."
+fi
+
 cd data; mkdir word2vec
 cd word2vec
 
