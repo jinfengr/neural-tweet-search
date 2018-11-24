@@ -1,7 +1,7 @@
 # Multi-Perspective Relevance Matching with Hierarchical ConvNets for Social Media Search
 This repo contains code and data for our neural tweet search paper published in [AAAI'19](https://arxiv.org/abs/1805.08159).
 
-In social media search, the scenario is different as standard ad-hoc retrieval: shorter document length, less formal languages and multiple relevance source signals (e.g., URL, hashtag). We propose a hierarchical convolutional model to approach the hetergeneous relevance signals (tweet, URL, hashtag) at multiple perspectives, including character-, word-, phrase- and sentence-level modeling. Our model demonstrated significant gains on multiple twitter datasets against state-of-the-art neural ranking models. More details can be found in our paper.
+Given a query, we aim to return the most relevant documents(tweets) by ranking their relevency. In social media search, the scenario is different as standard ad-hoc retrieval: shorter document length, less formal languages and multiple relevance source signals (e.g., URL, hashtag). We propose a hierarchical convolutional model to approach the hetergeneous relevance signals (tweet, URL, hashtag) at multiple perspectives, including character-, word-, phrase- and sentence-level modeling. Our model demonstrated significant gains on multiple twitter datasets against state-of-the-art neural ranking models. More details can be found in our paper.
 
 
 ## Requirements
