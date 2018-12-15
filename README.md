@@ -31,6 +31,9 @@ $ pip install -r requirements.txt
 CUDA_VISIBLE_DEVICES=0 python -u train.py -t trec-2013
 ```
 The path of best model and output predictions will be shown in the log. Default parameters should work reasonably well.
+
+- Note: you might need around ~40GB memory to create the dataset (because of the large size of IDF weights). Please file a issue if you have any problem in creating the dataset.
+
 - Parameter sweep to find the best parameter set:
 ```
 chmod +x param_sweep.sh; ./param_sweep.sh trec-2013 &
