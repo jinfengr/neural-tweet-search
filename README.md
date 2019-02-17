@@ -67,10 +67,10 @@ This should return the exact MPHCNN score on TREC 2013 dataset (MAP: 0.2818, P30
 ## Reference
 If you are using this code or dataset, please kindly cite the paper below:
 ```
-@article{rao2018multi,
+@article{rao2019multi,
   title={Multi-Perspective Relevance Matching with Hierarchical ConvNets for Social Media Search},
   author={Rao, Jinfeng and Yang, Wei and Zhang, Yuhao and Ture, Ferhan and Lin, Jimmy},
-  journal={arXiv preprint arXiv:1805.08159},
-  year={2018}
+  journal={Proceedings of the Thirty-Third AAAI Conference on Artificial Intelligence (AAAI)},
+  year={2019}
 }
 ```
