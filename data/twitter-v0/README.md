@@ -33,6 +33,9 @@ $ ./trec_eval ../data/qrels.microblog2011-2014.txt ../data/trec-2011/id.txt
 ```
 This should return the original QL score on TREC 2011 dataset (MAP: 0.3576, P30: 0.4000).
 
+## Timestamps
+The folder `order_by_time` contains timestamp information for each tweet. You shall find an 1-to-1 mapping between tweet id and its timestamp in `id.txt`.
+
 ## Reference
 If you are using this dataset, please kindly cite the paper below:
 ```
